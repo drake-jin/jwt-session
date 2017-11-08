@@ -1,0 +1,14 @@
+{
+  "apps": [{
+    "name": "access.tokens",
+    "script": "src/index.js",
+    "watch": ["src"],
+    "ignore_watch" : ["node_modules", "logs"],
+    "watch_options": {
+      "followSymlinks": false
+    },
+    "env":{
+      "NODE_TARGET": "production"
+    }
+  }]
+}
